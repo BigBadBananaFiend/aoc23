@@ -1,4 +1,4 @@
-with open ('day-one.txt') as f:
+with open ('./a-day-one/day-one.txt') as f:
     lines = [l.strip() for l in f.readlines()]
 
 def getNums():

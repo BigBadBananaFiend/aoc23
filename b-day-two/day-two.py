@@ -1,6 +1,6 @@
 import re
 
-with open ('./day-two/day-two.txt') as f:
+with open ('./b-day-two/day-two.txt') as f:
     lines = [l.strip() for l in f.readlines()]
 
 pattern = r'Game \d+: '
@@ -66,9 +66,5 @@ def getFewest():
 
     return result
 
-
-first_result = getPossible()
-second_result = getFewest()
-
-print(first_result)
-print(second_result)
+print('Solution 1: ', getPossible())
+print('Solution 2: ', getFewest())
